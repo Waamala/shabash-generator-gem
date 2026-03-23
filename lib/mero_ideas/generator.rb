@@ -68,7 +68,9 @@ module MeroIdeas
       return items.sample if filter_value.nil?
       
       if filter_value.is_a?(Array)
-        filtered = items.select { |item| filter_value.include?(item) }
+        filtered = items.select do |item|
+          filter_value.any? { |fv| fv.downcase == item.downcase }
+        end
         return filtered.sample unless filtered.empty?
         return items.sample
       else
