@@ -14,13 +14,19 @@ ruby -Ilib bin/mero-ideas -i
 # Сохранить в файл
 ruby -Ilib bin/mero-ideas -c 3 -s ideas.txt
 
-📋 Команды
-Команда	Описание
+# Команды
 -c, --count NUM	Количество идей (по умолчанию: 1)
+
 -t, --type TYPE	Тип: business, social, educational, team_building
+
 -f, --format FORMAT	Фильтр по формату мероприятия
+
 -s, --save FILE	Сохранить результат в файл
+
 -j, --json	Вывод в JSON формате
+
 -i, --interactive	Интерактивный режим
+
 -h, --help	Показать справку
+
 -v, --version	Показать версию
