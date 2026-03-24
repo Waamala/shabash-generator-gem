@@ -1,9 +1,9 @@
 example_id                                 | status | run_time        |
 ------------------------------------------ | ------ | --------------- |
-./spec/mero_ideas/generator_spec.rb[1:1:1] | passed | 0.0015 seconds  |
-./spec/mero_ideas/generator_spec.rb[1:1:2] | passed | 0.00376 seconds |
-./spec/mero_ideas/generator_spec.rb[1:1:3] | passed | 0.00017 seconds |
-./spec/mero_ideas/generator_spec.rb[1:1:4] | passed | 0.00016 seconds |
-./spec/mero_ideas/generator_spec.rb[1:2:1] | passed | 0.00014 seconds |
-./spec/mero_ideas/generator_spec.rb[1:2:2] | passed | 0.00013 seconds |
-./spec/mero_ideas/generator_spec.rb[1:2:3] | passed | 0.00195 seconds |
+./spec/mero_ideas/generator_spec.rb[1:1:1] | passed | 0.01043 seconds |
+./spec/mero_ideas/generator_spec.rb[1:1:2] | passed | 0.02129 seconds |
+./spec/mero_ideas/generator_spec.rb[1:1:3] | passed | 0.00018 seconds |
+./spec/mero_ideas/generator_spec.rb[1:1:4] | passed | 0.00012 seconds |
+./spec/mero_ideas/generator_spec.rb[1:2:1] | passed | 0.00012 seconds |
+./spec/mero_ideas/generator_spec.rb[1:2:2] | passed | 0.00016 seconds |
+./spec/mero_ideas/generator_spec.rb[1:2:3] | passed | 0.00973 seconds |
