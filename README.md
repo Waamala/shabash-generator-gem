@@ -30,3 +30,7 @@ ruby -Ilib bin/mero-ideas -c 3 -s ideas.txt
 -h, --help	Показать справку
 
 -v, --version	Показать версию
+
+
+# Запуск тестов
+bundle exec rspec spec/
