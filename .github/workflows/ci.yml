@@ -2,7 +2,6 @@ name: Rubi CI
 
 on: [push]
 
-
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -10,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 3.4
+        with:
+          ruby-version: 3.4
       - run: bundle install
-      - run bundle exec rcpes
+      - run: bundle exec rspec 
