@@ -1,4 +1,4 @@
-Shabash Generator
+# Shabash Generator
 Простой генератор идей для мероприятий на Ruby
 
 
